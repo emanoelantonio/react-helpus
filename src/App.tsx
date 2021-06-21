@@ -1,9 +1,11 @@
-import React from 'react';
+import { Button } from './components/Button';
 
 
 function App() {
   return (
-    <h1>HelpUS</h1>
+    <div>
+      <Button/>
+    </div>
   );
 }
 
