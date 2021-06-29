@@ -18,6 +18,12 @@
     img {
       margin-right: 20px;
     }
+
+    &.outlined {
+      background: #fff;
+      border: 1px solid #835afd;
+      color: #835afd;
+    }
     // quando não estiver disponível não terá brilho ao passar o mouse
     &:not(:disabled):hover {
       filter: brightness(0.9);
